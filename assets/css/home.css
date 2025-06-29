@@ -3,7 +3,7 @@
 .welcome {
     margin: 0;
     padding: 100px 0;
-    background-image: url(../img/home_bgr1.png);
+    background-image: url(../img/backgrounds/gradiant-bg-01.png);
     background-position: center;
     background-size: cover;
 }
@@ -47,8 +47,8 @@ section.wel-right {
 
 .ticket {
     margin: 0;
-    padding: 0;
-    background-image: url(../img/home_bgr2.png);
+    padding: 100px 0;
+    background-image: url(../img/backgrounds/gradiant-bg-01.png);
     background-position: center;
     background-size: cover;
 }
@@ -71,6 +71,7 @@ section.wel-right {
     height: 60%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 
 .ticket-wrapper {
@@ -201,7 +202,7 @@ margin: 70px auto;
 }
 
 .collab-part.bg2 {
-    background-image: url(../img/bg-02.png);
+    background-image: url(../img/backgrounds/wave-bg.png);
     background-position: center;
     background-size: 100% 100%;
 }
