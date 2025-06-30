@@ -127,6 +127,10 @@ section.wel-right {
 
 /* WHY */
 
+.why {
+    padding: 100px 0;
+}
+
 .why.paragraph {
     font-size: 1.8em;
 }
@@ -180,6 +184,11 @@ margin: 70px auto;
 }
 
 /* COLLAB */
+
+.collab {
+    padding: 100px 0;
+}
+
 
 .collab-wrapper {
     margin-top: 100px;
