@@ -167,141 +167,50 @@
 
                     <div class="orders-card-body">
                         <div class="orders-card-infor">
-                            <p>Thông tin sản phẩm</p>
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>John</td>
-                                        <td>Doe</td>
-                                        <td>@social</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="orders-card-footer">
-                        <p>Ngày mua: 11/07/2025</p>
-                        <p>Tổng tiền: -----</p>
-                    </div>
-                </div>
-            </div>
-            <div class="orders-card">
-                <div class="orders-card-inner">
-                    <div class="orders-card-header">
-                        <div class="orders-card-heading-text">
-                            <h5>Đơn hàng: [orderID]</h5>
-                        </div>
-                        <div class="orders-card-heading-status">
-                            <h5>Trạng thái: [orderStatus]</h5>
-                        </div>
-                    </div>
 
-                    <div class="orders-card-body">
-                        <div class="orders-card-infor">
-                            <p>Thông tin sản phẩm</p>
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>John</td>
-                                        <td>Doe</td>
-                                        <td>@social</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="orders-card-footer">
-                        <p>Ngày mua: 11/07/2025</p>
-                        <p>Tổng tiền: -----</p>
-                    </div>
-                </div>
-            </div>
-            <div class="orders-card">
-                <div class="orders-card-inner">
-                    <div class="orders-card-header">
-                        <div class="orders-card-heading-text">
-                            <h5>Đơn hàng: [orderID]</h5>
-                        </div>
-                        <div class="orders-card-heading-status">
-                            <h5>Trạng thái: [orderStatus]</h5>
-                        </div>
-                    </div>
+                            <!-- Thông tin đơn hàng button -->
+                            <p class="d-inline-flex gap-1">
+                                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseOrderItems"
+                                    role="button" aria-expanded="false" aria-controls="collapseOrderItems">
+                                    Thông tin sản phẩm
+                                </a>
+                            </p>
 
-                    <div class="orders-card-body">
-                        <div class="orders-card-infor">
-                            <p>Thông tin sản phẩm</p>
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>John</td>
-                                        <td>Doe</td>
-                                        <td>@social</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <!-- Thông tin đơn hàng content -->
+                            <div class="collapse" id="collapseOrderItems">
+                                <div class="card card-body">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">First</th>
+                                                <th scope="col">Last</th>
+                                                <th scope="col">Handle</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>John</td>
+                                                <td>Doe</td>
+                                                <td>@social</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="orders-card-footer">
@@ -310,58 +219,7 @@
                     </div>
                 </div>
             </div>
-            <div class="orders-card">
-                <div class="orders-card-inner">
-                    <div class="orders-card-header">
-                        <div class="orders-card-heading-text">
-                            <h5>Đơn hàng: [orderID]</h5>
-                        </div>
-                        <div class="orders-card-heading-status">
-                            <h5>Trạng thái: [orderStatus]</h5>
-                        </div>
-                    </div>
-
-                    <div class="orders-card-body">
-                        <div class="orders-card-infor">
-                            <p>Thông tin sản phẩm</p>
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>John</td>
-                                        <td>Doe</td>
-                                        <td>@social</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="orders-card-footer">
-                        <p>Ngày mua: 11/07/2025</p>
-                        <p>Tổng tiền: -----</p>
-                    </div>
-                </div>
-            </div>
+        
         </div>
 
     </section>
